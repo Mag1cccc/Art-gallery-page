@@ -1,0 +1,208 @@
+/* fonts */
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url(./fonts/BigShouldersDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(./fonts/Outfit-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-div {
+    width: 1275px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-text {
+    position: absolute;
+    top: 0;
+    margin-top: 190px;
+    margin-left: 25px;
+    padding-left: 140px;
+}
+
+.header-text h1 {
+    color: #FFFFFF;
+    font-size: 96px;
+    line-height: 88px;
+    font-weight: 900; 
+    font-family: 'Big Shoulders Display';
+}
+
+.span1 {
+    color: #151515;
+}
+
+.header-p {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 925px;
+}
+
+.button {
+    width: 204px;
+    height: 72px;
+    background-color:#D5966C;
+    display: flex;
+    margin-top: 414px;
+}
+
+.button a {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Big Shoulders Display';
+    letter-spacing: 3.63636px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.arrow {
+    height: 72px;
+    width: 56px;
+    margin-top: 414px;
+}
+
+.section-div {
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-div-texts h2 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    color: #151515;
+    margin-top: 240px;
+}
+
+.section-div-texts p {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    margin-top: 32px;
+}
+
+.section-div img {
+    width: 635px;
+    height: 400px;
+    margin-top: 180px;
+    margin-left: 125px;
+}
+
+.section-div2 {
+    padding-left: 410px;
+    
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.section-div2 img {
+    margin-top: 90px;
+    margin-right: 30px;
+}
+
+.section-div2-photos img {
+    width: 410px;
+    margin-bottom: 51px;
+}
+
+.section-div2-texts {
+    background-color: #151515;
+    width: 410px;
+    height: 377px;
+}
+
+.section-div2-texts h3 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-top: 65px;
+    padding-left: 48px;
+}
+
+.section-div2-texts p {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 48px;
+    padding-right: 47px;
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 180px;
+    height: 244px;
+    background-color: #151515;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+footer img {
+    width: 160px;
+    height: 58px;
+    padding-left: 165px;
+}
+
+footer p {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-left: 140px;
+}
+
+.facebook-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 120px;
+}
+
+.instagram-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+}
+
+.twitter-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
